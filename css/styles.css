@@ -8095,8 +8095,10 @@ textarea.form-control-lg {
 }
 
 .text-muted {
+  margin-top: 1rem;
   --bs-text-opacity: 1;
   color: #16049d !important;
+  font-size:large;
 }
 
 .text-black-50 {
@@ -11246,6 +11248,12 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
+
+.service-img{
+  margin-right: 20rem;
+  margin-left: -5rem;
+}
+
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
