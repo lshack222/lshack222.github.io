@@ -89,6 +89,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
+  /* background-image: url("...assets/img/TileBackground.jpeg"); */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -10879,6 +10880,14 @@ p {
   margin-bottom: 2rem;
   color: #16049d;
 }
+
+.page-section,.about{
+  background-image: url("/assets/img/Tiles.png");
+
+  opacity: 2;
+}
+
+
 
 @media (min-width: 768px) {
   section {
