@@ -10984,6 +10984,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
+  /* height: 13rem; */
   color: #fff;
   background-image: url("../assets/img/lilia.jpg");
   background-repeat: no-repeat;
@@ -11285,8 +11286,11 @@ header.masthead .masthead-heading {
 }
 
 .service-img{
-  margin-right: 20rem;
-  margin-left: -5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  height: auto;
+  display: inline-block;
 }
 
 .team-member {
